@@ -3,9 +3,10 @@ import OpenAI from 'openai';
 
 // Replace this with your actual API key
 
+const apiKey = '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';
 
 // Initialize the OpenAI client with your API key
-const openai = new OpenAI();
+const openai = new OpenAI(apiKey);
 
 const app = express();
 
